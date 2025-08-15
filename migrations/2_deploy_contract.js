@@ -22,4 +22,13 @@ module.exports = async function(deployer, network, accounts) {
 
   // Transfer 100 Mock Tether tokens to investor
   await tether.transfer(accounts[1], '100000000000000000000')
+
+  // Transfer 100 Mock Tether tokens to investor
+  await tether.transfer(accounts[2], '100000000000000000000')
+
+  // Transfer 100 Mock Tether tokens to investor
+  await tether.transfer(accounts[3], '100000000000000000000')
+
+  // Transfer 100 Mock Tether tokens to investor
+  await tether.transfer(accounts[4], '100000000000000000000')
 }

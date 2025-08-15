@@ -5484,12 +5484,12 @@
         }
       },
       "links": {},
-      "address": "0x2f44C0545bB59e27b1Fa5F065eCC75c46aca8885",
-      "transactionHash": "0xfb26843dbb7f73d67651128c7f1f71a4ded24ee4320c4ae17f1536d48b52ac64"
+      "address": "0x7CB50E438F10e80DE3778B17Ae002f0d45b9Aca9",
+      "transactionHash": "0x42fe2826f1b2c179e649831a74713641f8249b8767aff43ffd377fb4515842dc"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-08-07T14:22:35.800Z",
+  "updatedAt": "2025-08-15T13:54:21.276Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
