@@ -17,16 +17,16 @@ contract('DecentralBank', ([owner, customer]) => {
     }
 
     before(async () => {
-        //Load contracts
+        // Load contracts
         tether = await Tether.new()
         rwd = await RWD.new()
         decentralBank = await DecentralBank.new(rwd.address, tether.address)
 
-        //transfer all tokens to decentralBank (1 million)
-        await rwd.transfer(decentralBank.address, '10000000*10**18')
+        // Transfer all RWD tokens to DecentralBank (1 million)
+        await rwd.transfer(decentralBank.address, tokens('1000000'))
 
-        //transfer 100 mock tokens to customer
-        await tether.transfer(customer, '100*10**18', {from: owner})
+        // Transfer 100 mock tether tokens to customer
+        await tether.transfer(customer, tokens('100'), {from: owner})
     })
 
     describe('Mock Tether Deployment', async () => {

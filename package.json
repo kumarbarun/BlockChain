@@ -44,5 +44,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/register": "^7.28.3"
+  }
 }
